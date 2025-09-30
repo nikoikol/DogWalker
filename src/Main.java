@@ -9,7 +9,7 @@ class Main
             }
             System.out.println(c);
             Dogwalker w = new Dogwalker(3, c);
-
+            System.out.println(w.shift(7, 10));
         }
 
 }
